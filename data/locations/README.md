@@ -12,15 +12,10 @@ The TRY 2017 dataset is available for download from the DWD [Climate Consulting 
 
 ## Weather Data Used in This Study
 
-For the study presented in this repository, the **annual, present-climate** TRY 2017 variant was selected for six German cities (Berlin, Hamburg, Düsseldorf, Munich, Frankfurt, and Leipzig), consistent with the full-year simulation period of 365 days. To reproduce this setup, download the TRY 2017 grid cell corresponding to each city from the Climate Consulting Module, convert them to `.mos` format using AixWeather, and place the files in this directory with the following filenames (matching the default `config.yaml`):
+For the study presented in this repository, the **annual, present-climate** TRY 2017 variant was selected for one German city (aachen), consistent with the full-year simulation period of 365 days. To reproduce this setup, download the TRY 2017 grid cell corresponding to each city from the Climate Consulting Module, convert them to `.mos` format using AixWeather, and place the files in this directory with the following filenames (matching the default `config.yaml`):
 
 ```
-berlin.mos
-hamburg.mos
-dusseldorf.mos
-munich.mos
-frankfurt.mos
-leipzig.mos
+aachen.mos
 ```
 
-Once all six files are in place, the pipeline can be executed from the project root.
+Once weather files are in place, the pipeline can be executed from the project root.
