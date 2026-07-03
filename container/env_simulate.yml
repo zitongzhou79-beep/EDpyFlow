@@ -1,0 +1,11 @@
+name: simulate
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - pyyaml
+  - pip
+  - pip:
+      - OMPython
